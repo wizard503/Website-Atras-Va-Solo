@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>AVS-Website</title>
+  <meta charset="utf-8" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <meta name="google-site-verification" content="GdBzUzXrkj8yYDuFJ0qmYIvt3CLnGmQw5bz0YM9Z_2A" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css" />
+  <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css" />
+  <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css" />
+  <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css" />
+  <link rel="stylesheet" type="text/css" href="plugins/slick-1.8.0/slick.css" />
+  <link href="plugins/icon-font/styles.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="styles/main_styles.css" />
+  <link rel="stylesheet" type="text/css" href="styles/responsive.css" />
+</head>
+
+<body>
+  <div class="super_container">
+    <!-- Header -->
+
+    <header class="header d-flex flex-row justify-content-end align-items-center trans_200">
+      <!-- Logo -->
+      <div class="logo mr-auto">
+        <a href="#">Atras<span>va<span>solo</span></span></a>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="main_nav justify-self-end text-right">
+        <ul>
+          <li class="active"><a href="#">Inicio</a></li>
+          <li><a href="about.html">Conocenos</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+          <li><a href="historia.html">Historia</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger -->
+      <div class="hamburger_container bez_1">
+        <i class="fas fa-bars trans_200"></i>
+      </div>
+    </header>
+
+    <!-- Menu -->
+
+    <div class="menu_container">
+      <div class="menu menu_mm text-right">
+        <div class="menu_close">
+          <i class="far fa-times-circle trans_200"></i>
+        </div>
+        <ul class="menu_mm">
+          <li class="menu_mm active"><a href="#">Inicio</a></li>
+          <li class="menu_mm"><a href="about.html">Conocenos</a></li>
+          <li class="menu_mm"><a href="contact.html">Contacto</a></li>
+          <li class="menu_mm"><a href="historia.html">Historia</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Home -->
+
+    <div class="home">
+      <div class="home_background_container prlx_parent">
+        <div class="home_background prlx" style="background-image: url(images/bus_station.jpg)"></div>
+      </div>
+      <!-- Hero Slider -->
+      <div class="hero_slider_container">
+        <!-- Slider -->
+        <div class="owl-carousel owl-theme hero_slider">
+          <!-- Slider Item -->
+          <div class="owl-item hero_slider_item item_1 d-flex flex-column align-items-center justify-content-center">
+            <span><strong>Atras va Solo</strong></span>
+            <a target="_blank" href="https://atrasvasolo.com/#/"><button type="button" class="btn-app btn-lg">Ir a la App</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="next_section_scroll">
+        <div class="next_section nav_links" data-scroll-to=".icon_boxes">
+          <i class="fas fa-chevron-down trans_100"></i>
+          <i class="fas fa-chevron-down trans_200"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Icon Boxes -->
+
+    <div class="icon_boxes">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="icon_box_title">
+              <h1>Lo que ofrecemos para ti</h1>
+            </div>
+          </div>
+
+          <div class="col-lg-4 icon_box_col">
+            <!-- Icon Box Item -->
+            <div class="icon_box_item">
+              <h2>Informacion de rutas</h2>
+              <p>Podras ver horarios asi como el costo de las rutas.</p>
+            </div>
+
+            <!-- Icon Box Item -->
+            <div class="icon_box_item">
+              <h2>Localizar paradas</h2>
+              <p>
+                Marcar un destino en el mapa, para que te muestre las rutas de
+                buses
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 icon_box_col">
+            <!-- Icon Box Item -->
+            <div class="icon_box_item">
+              <h2>Alertas</h2>
+              <p>
+                Estaras informado sobre alertas de trafico y reparacion de
+                calles.
+              </p>
+            </div>
+
+            <!-- Icon Box Item -->
+            <div class="icon_box_item">
+              <h2>Personalización</h2>
+              <p>
+                Tendras la opcion de poder guardar paradas de autobuses, asi
+                como tus rutas favoritas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vertical Slider Section -->
+
+    <div class="v_slider_section">
+      <div class="container fill_height">
+        <div class="row fill_height">
+          <div class="col-lg-6 v_slider_section_image">
+            <div class="content-all">
+              <div class="content-carrousel" id="carrousel">
+                <figure><img loading="lazy" src="img/AVS-App/AVS2.png"></figure>
+                <figure><img loading="lazy" src="img/AVS-App/AVS3.png"></figure>
+                <figure><img loading="lazy" src="img/AVS-App/AVS4.png"></figure>
+                <figure><img loading="lazy" src="img/AVS-App/AVS5.png"></figure>
+                <figure><img loading="lazy" src="img/AVS-App/AVS6.png"></figure>
+                <figure><img loading="lazy" src="img/AVS-App/AVS7.png"></figure>
+              </div>
+            </div>
+          </div>
+
+          <div id="devs" class="col-lg-5 offset-lg-1 d-flex flex-column justify-content-center">
+            <div>
+              <div>
+                <div>
+                  <h1>Conecta con</h1>
+                  <h1>rutas seguras</h1>
+                  <h1>para ti.</h1>
+                  <p style="text-align: justify;">
+                    Nos comprometemos para conectarte de forma segura con
+                    rutas que te llevan a tu destion. Nuestro sistema mejora
+                    la seguridad local reduciendo el tiempo de espera de los
+                    usuarios, asi como trackeando satelitalmente las unidades.
+                  </p>
+                  <div class="person d-flex flex-row">
+                    <div class="person_image">
+                      <img src="img/fotosequipo/AG19045 - Julio Aguilar.jpg" alt="">
+                      <img src="img/fotosequipo/AH19022 - Giovanni Aguirre.jpg" alt="">
+                      <img src="img/fotosequipo/CD18002 - Kevin Cruz.jpg" alt="">
+                    </div>
+                    <div class="person_image">
+                      <img src="img/fotosequipo/CG19014 - Oscar Chacon.jpg" alt="">
+                      <img src="img/fotosequipo/CS17010 - Ernesto Centi.jpg" alt="">
+                      <img src="img/fotosequipo/CV19014-Henry Rolando Cardona Valle.jpg" alt="">
+                    </div>
+                    <div class="person_image">
+                      <img src="img/fotosequipo/DG17001 - Jose Duran.jpg" alt="">
+                      <img src="img/fotosequipo/GH19009 - Sara García.jpg" alt="">
+                      <img src="img/fotosequipo/GR16078 - Melvin Alexander González Ramos.jpg" alt="">
+                    </div>
+                    <div class="person_image">
+                      <img src="img/fotosequipo/LT11003-Luis López.jpg" alt="">
+                      <img src="img/fotosequipo/MM18144 - Mauricio Menedez.jpg" alt="">
+                      <img src="img/fotosequipo/MR17009 - William Morales.jpg" alt="">
+                    </div>
+                    <div class="person_image">
+                      <img src="img/fotosequipo/PS19001-Carlos Pacheco.jpg" alt="">
+                      <img src="img/fotosequipo/PZ17008- Galileo Padilla.jpg" alt="">
+                      <img src="img/fotosequipo/ZF19001-Welter Zepeda.jpg" alt="">
+                    </div>
+                    <div class="person_image">
+                      <img src="img/fotosequipo/RP18010  - José Ramirez.jpg" alt="">
+                    </div>
+                </div>
+                <div class="person_title"><strong>Desarrolladores</strong></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="features">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <div class="section_title">
+              <h1>Caracteristicas</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row features_row">
+          <div class="col-lg-4 text-lg-right features_col order-lg-1 order-2">
+            <!-- Features Item-->
+            <div class="features_item">
+              <h2>Aplicacion Movil</h2>
+              <p>Acceso desde tu telefono inteligente o tablet.</p>
+            </div>
+
+            <!-- Features Item-->
+            <div class="features_item">
+              <h2>Excelente diseño</h2>
+              <p>Interfaces graficas encantadoras.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-flex flex-column align-items-center order-lg-2 order-1">
+            <div class="features_image">
+              <img loading="lazy" src="img/AVS-App/AVS1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-4 features_col order-lg-3 order-3">
+            <!-- Features Item-->
+            <div class="features_item">
+              <h2>Busqueda rapida</h2>
+              <p>
+                Podras Localizar cualquier parada de autobus de forma
+                instantanea.
+              </p>
+            </div>
+
+            <!-- Features Item-->
+            <div class="features_item">
+              <h2>Uso simple</h2>
+              <p>Una aplicacion facil de usar para cualquier persona.</p>
+            </div>
+
+            <div class="button features_button_2 trans_200">
+              <a href="#" class="trans_200">Descubre mas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Promocional YouTube -->
+    <div class="videoPromocional">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <div class="section_title">
+              <h1>Video Promocional</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <div class="section_title">
+            <iframe id="video" src="https://www.youtube.com/embed/ehdWEgsm4EU" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+             gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <!-- Footer Intro -->
+            <div class="footer_intro">
+              <!-- Logo -->
+              <div class="logo footer_logo">
+                <a href="#">Atras<span>va<span>solo</span></span></a>
+              </div>
+
+              <!-- Copyright -->
+              <div class="footer_cr" style="color: #fff;">
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                <br />All rights reserved<br /><i class="fa fa-heart" aria-hidden="true"></i>
+                by <a>AtrasVaSolo</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer About -->
+          <div class="col-lg-2">
+            <div class="footer_col">
+              <ul>
+                <li><a href="about.html" style="color: #fff;">Acerca de Nosotros</a></li>
+                <p style="text-align: justify;">
+                  Somos un grupo de estudiantes de la Universidad de El
+                  Salvador, Facultad Multidisciplinaria de Occidente.
+                </p>
+              </ul>
+            </div>
+          </div>
+          <!-- Footer contact -->
+          <div class="col-lg-2">
+            <div class="footer_col">
+              <ul>
+                <li><a href="contact.html" style="color: #fff;">Contacto</a></li>
+                <p>Correo Electronico: ernesto.calderon@ues.edu.sv</p>
+
+                <p>Tel: 2484-0811 <br>ext. 8811</p>
+
+                <p>
+                  GitHub:
+                  <a href="https://github.com/diseno2022/atrasvasoloAPP.git">AtrasVASOLO</a>
+                </p>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <!-- Copyright -->
+            <div class="footer_cr_2">2022 All rights reserved</div>
+          </div>
+        </div>
+        <div class="row" id="copyright">
+          <!--Licencia-->
+          <div><a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+              <img alt="Licencia de Creative Commons" style="border-width:6"
+                src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+            </a></div>
+          <div><span xmlns:dct="https://purl.org/dc/terms/" property="dct:title"></div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    function disabletext(e) {
+      return false
+    }
+    function reEnable() {
+      return true
+    }
+    document.onselectstart = new Function("return false")
+    if (window.sidebar) {
+      document.onmousedown = disabletext
+      document.onclick = reEnable
+    }
+  </script>
+
+  <script language="JavaScript">
+    function deshabilitar() {
+      alert("Sitio protegido por derechos de autor")
+      return false
+    }
+    document.oncontextmenu = deshabilitar
+  </script>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="styles/bootstrap4/popper.js"></script>
+  <script src="styles/bootstrap4/bootstrap.min.js"></script>
+  <script src="plugins/greensock/TweenMax.min.js"></script>
+  <script src="plugins/greensock/TimelineMax.min.js"></script>
+  <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+  <script src="plugins/greensock/animation.gsap.min.js"></script>
+  <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+  <script src="plugins/slick-1.8.0/slick.js"></script>
+  <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+  <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+  <script src="plugins/easing/easing.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
+<style>
+  body {
+    background-image: url(https://drive.google.com/uc?export=view&id=1521tbUlAGwLOcS1r4iIS2JNIIW_6CvsB);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 2000px 4000px;
+  }
+  .team{
+    align-self: center;
+    width: 50%;
+    height: 25%;
+  }
+
+  .content-all {
+    max-width: 210px;
+    margin: auto;
+    perspective: 800px;
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .content-carrousel {
+    width: 90%;
+    position: absolute;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+  }
+
+  .content-carrousel:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+
+  .content-carrousel figure {
+    width: 78%;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px black;
+    transition: all 300ms;
+    border-radius: 30px;
+  }
+
+  .content-carrousel figure:hover {
+    box-shadow: 0px 0px 0px 0px black;
+    transition: all 300ms;
+  }
+
+  .content-carrousel figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(300px);
+  }
+
+  .content-carrousel figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(300px);
+  }
+
+  .content-carrousel img {
+    height: 100%;
+    transition: all 300ms;
+  }
+
+  .content-carrousel img:hover {
+    transform: scale(1.1);
+    transition: all 300ms;
+  }
+
+  .features_image>img {
+    width: 80%;
+  }
+
+  .person_image>img {
+    height: 65px;
+    width: 65px;
+  }
+
+  .person {
+    padding-left: 5%;
+  }
+
+  .person_title {
+    padding-left: 37%;
+    color: rgb(87, 87, 87);
+  }
+
+  .btn-app{
+    color: #ff6b09;
+    border-color: #ff6b09;
+    background-color: transparent;
+    border: 1px solid #ff6b09;
+  }
+
+  .btn-app:hover{
+    color: #fff;
+    background-color: #ff6b09;
+    border-color: #ff6b09;
+  }
+
+  #video{
+      width: 720px;
+      height: 410px;
+    }
+
+  @keyframes rotar {
+    from {
+      transform: rotateY(360deg);
+    }
+
+    to {
+      transform: rotateY(0deg);
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    body{
+      background-size: 2000px 4500px;
+    }
+    .content-all {
+      max-width: 100px;
+      position: relative;
+    }
+
+    .icon_boxes {
+      padding-bottom: 0%;
+    }
+
+    .v_slider_item {
+      padding-top: 60%;
+    }
+
+
+    .content-carrousel{
+      animation: rotar 15s infinite linear;
+    }
+    
+    .content-carrousel figure {
+      width: 97%;
+      height: 177px;
+      border-radius: 16px;
+    }
+
+    .features_image>img {
+      width: 50%;
+      margin-left: 25%;
+    }
+
+    .person_image>img {
+      height: 45px;
+      width: 45px;
+    }
+
+    .person {
+      padding-left: 5%;
+    }
+
+    #video{
+      width: 310px;
+      height: 205px;
+    }
+
+    #devs{
+      margin-top: 95%;
+    }
+
+    #copyright{
+      padding-left: 5%;
+    }
+  }
+</style>
